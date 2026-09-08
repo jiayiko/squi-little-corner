@@ -1,11 +1,16 @@
 ---
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_LOGO } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2 class="m-0 text-base">
+			<a href="/" class="flex items-center gap-2 no-underline">
+				<img src={SITE_LOGO} alt="Logo" class="w-10 h-10" />
+				<span>{SITE_TITLE}</span>
+			</a>
+		</h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
@@ -76,6 +81,18 @@ import HeaderLink from './HeaderLink.astro';
 	.social-links,
 	.social-links a {
 		display: flex;
+	}
+	nav a,
+	.social-links a {
+	transition: color 150ms ease;
+	}
+
+	nav a:hover,
+	nav a:focus,
+	.social-links a:hover,
+	.social-links a:focus {
+	color: var(--accent);
+	outline: none;
 	}
 	@media (max-width: 720px) {
 		.social-links {
