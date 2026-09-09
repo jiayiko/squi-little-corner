@@ -8,7 +8,7 @@ import HeaderLink from './HeaderLink.astro';
 		<h2 class="m-0 text-base">
 			<a href="/" class="flex items-center gap-2 no-underline">
 				<img src={SITE_LOGO} alt="Logo" class="w-10 h-10" />
-				<span>{SITE_TITLE}</span>
+				<span class="site-title">{SITE_TITLE}</span>
 			</a>
 		</h2>
 		<div class="internal-links">
@@ -91,12 +91,20 @@ import HeaderLink from './HeaderLink.astro';
 	nav a:focus,
 	.social-links a:hover,
 	.social-links a:focus {
-	color: var(--accent);
-	outline: none;
+		color: var(--accent);
+		outline: none;
 	}
 	@media (max-width: 720px) {
 		.social-links {
 			display: none;
+		}
+
+		nav a {
+			padding: 0.6em 0.3em;
+		}
+
+		.site-title {
+			max-width: 64px;
 		}
 	}
 </style>

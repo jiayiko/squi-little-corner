@@ -6,19 +6,39 @@ import Layout from '../layouts/Layout.astro';
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_HOME_IMG } from '../consts';
 ---
 <style>
-:global(.index-page .page-background) {
-	justify-content: flex-start;
+:global(.index-page .page-content) {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: min(720px, 100%);
+	padding-right: 0;
+	padding-left: 0;
+}
+:global(.index-page main) {
+
 }
 
-:global(.index-page .page-content) {
-	margin: 0;
-	margin-left: 4rem;
+.squi {
+	width: 50%;
+	max-height: 100%;
+	z-index: -1;
+	align-self: flex-end;
+}
+
+@media (max-width: 720px) {
+	:global(.index-page .page-content) {
+		flex-direction: column;
+		flex-grow: 1;
+		justify-content: space-between;
+		margin-top: 8vh;
+	}
+	.squi {
+		width: 85%;
+	}
 }
 </style>
 
 <Layout
-	title={SITE_TITLE}
-	description={SITE_DESCRIPTION}
 	pageClass="index-page"
 >
 		<div>
@@ -28,6 +48,6 @@ import { SITE_DESCRIPTION, SITE_TITLE, SITE_HOME_IMG } from '../consts';
 			</p>
 		</div>
 		<img src={SITE_HOME_IMG} alt="Squi in the corner"
-		class="w-[40%] absolute bottom-0 right-0"
+		class="squi"
 		/>
 </Layout>

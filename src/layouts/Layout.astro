@@ -3,13 +3,16 @@ import '../styles/global.css';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro'; 
+import FormattedDate from '../components/FormattedDate.astro';
+import { Image } from 'astro:assets';
 const {
-  title = 'My Site',
-  description = 'A blog and portfolio site',
+  title,
+  description,
   heroImage,
   heroAlt = 'Hero image',
   backgroundImage,
   pageClass,
+  pubDate,
 } = Astro.props;
 ---
 
@@ -21,8 +24,18 @@ const {
       main {
         width: 100%;
         max-width: 100%;
-        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        position: relative;
+        /* background behavior formerly on .page-background */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
         padding: 0;
+        margin: 0;
       }
 
       .hero-wrapper {
@@ -31,35 +44,46 @@ const {
       }
 
       .hero-image {
-        display: block;
         width: 100%;
-        height: 420px;
-        object-fit: cover;
-        margin: 0;
       }
 
-      .page-background {
-        width: 100%;
-        min-height: 100vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        position: relative;
+      .hero-image img {
+        display: block;
+        margin: 0 auto;
+        margin-block-start: 2em;
+        border-radius: 12px;
+        box-shadow: var(--box-shadow);
+        width: calc(100% - 2em);
+        max-width: 800px;
       }
 
       .page-content {
         width: 720px;
-        max-width: 100%;
+        max-width: calc(100% - 2em);
         margin: 0 auto;
-        padding: 3em 1em;
+        padding: 1em;
         color: rgb(var(--gray-dark));
         font-size: 20px;
         line-height: 1.7;
+      }
+
+      .title {
+        padding: 1em 0;
+        text-align: center;
+        line-height: 1;
+      }
+
+      .title h1 {
+        margin: 0 0 0.3em 0;
+      }
+
+      .date {
+        margin-bottom: 0.5em;
+        color: rgb(var(--gray));
+      }
+
+      .last-updated-on {
+        font-style: italic;
       }
 
       .page-content :global(h1),
@@ -70,25 +94,39 @@ const {
       .page-content :global(h6) {
         line-height: 1.2;
       }
+
+      @media (max-width: 720px) {
+        main {
+            min-height: 100%;
+        }
+      }
     </style>
   </head>
   <body class={ `min-h-screen bg-[var(--background)] text-[var(--text)] ${pageClass ?? ''}`}>
     <Header />
-    <main>
-      {heroImage && (
-        <div class="hero-wrapper">
-          <img src={heroImage} alt={heroAlt} class="hero-image" />
+    <main style={backgroundImage ? `background-image: url('${backgroundImage}');` : ''}>
+        <div class="hero-image">
+            {heroImage && (
+                typeof heroImage === 'string' ? (
+                <img src={heroImage} alt={heroAlt} />
+                ) : (
+                <Image width={1020} height={510} src={heroImage} alt={heroAlt} />
+                )
+            )}
         </div>
-      )}
-
-      <section
-        class='page-background'
-        style={backgroundImage ? `background-image: url('${backgroundImage}');` : ''}
-      >
         <article class="page-content">
+            {title && <div class="title">
+            {pubDate && (
+              <div class="date">
+                <FormattedDate date={pubDate} />
+              </div>
+            )}
+            <h1>{title}</h1>
+            <hr />
+          </div>}
+
           <slot />
         </article>
-      </section>
     </main>
     <Footer />
   </body>
