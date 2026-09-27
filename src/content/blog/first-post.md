@@ -8,12 +8,12 @@ heroImage: '../../assets/first-post/near-kings-gate.png'
 Weekend sudah datang, yey! Hari ini sama mama pergi ke Suomenlinna.
 
 Fun facts about Suomenlinna:
-- Benteng laut di sebuah pulau kecil di Finland dibangun 1748.
+- Benteng laut di sebuah pulau kecil di Finland dibangun tahun 1748.
 - Waktu dibangun, Finland masih di bawah Sweden. Habis itu di bawah Russia ketika masa perang Russia-Sweden selama tahun 1800-an. 
 - Setelah Finland merdeka,  Suomenlinna ini perannya jadi base militer sebelum dilestarikan jadi cultural heritage sekarang (UNESCO list) :D.
 
 
-Untuk ke sana, kita naik ferry, bisa pakai tiket A-B zone dari HSL app. Durasi perjalanannnya 15 menit, singkat sekali. Tiket HSL bisa dipakai buat naik semua jenis transportasi umum: kereta, tram, bus, sampai ferry ini.
+Untuk ke sana, kita naik ferry, bisa pakai tiket A-B zone dari HSL app. Durasi perjalanannya 15 menit, singkat sekali. Tiket HSL bisa dipakai buat naik semua jenis transportasi umum: kereta, tram, bus, sampai ferry ini.
 
 ![Description](../../assets/first-post/ferry-scenery.png)
 
@@ -35,14 +35,14 @@ Ada satu spot yang aku suka banget. Di sini viewnya cantik, kelihatan semua elem
 ![Description](../../assets/first-post/calm-scenery.png)
 
 Berjalan lagi, ke daerah benteng-bentengnya. Sempat masuk ke dalam, gelap dan berpasir. Tidak kebayang dulu zaman perang orang-orang tinggal di dalam sini bagaimana.
-![Description](../../assets/first-post/old-building.png)
+![Description](../../assets/first-post/another-fortress.png)
 
 Setelah keluar dari sana, kita ketemu monumen yang ada zirah prajurit.
 ![Description](../../assets/first-post/soldier-armor.png)
 
 Dari situ, jalan berbelok arah dari rute biru. Ketemu spot yang sangat indah :'D.
 
-Di sini ada beberapa benteng mini yang bentuknya kayak rumah kurcaci dan atas atapnya berumput. View-nya langsung menghadap ke laut dengan awan awan di atasnnya. Terus sempat secercah cahaya menembus awannya di tengah, menyinari bagian kecil permukaan lautnya di tengah kegelapan. Sangat indah.
+Di sini ada beberapa benteng mini yang bentuknya kayak rumah kurcaci dan atas atapnya berumput. View-nya langsung menghadap ke laut dengan awan awan di atasnya. Terus sempat secercah cahaya menembus awannya di tengah, menyinari bagian kecil permukaan lautnya di tengah kegelapan. Sangat indah.
 
 Tapi anginnya sangat amat kencang wkwkwk.
 
