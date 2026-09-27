@@ -1,16 +1,66 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+title: 'Explore Finland - Suomenlinna'
+description: 'Jalan-jalan sama mama'
+pubDate: '20 September 2026'
+heroImage: '../../assets/first-post/near-kings-gate.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Weekend sudah datang, yey! Hari ini sama mama pergi ke Suomenlinna.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+Fun facts about Suomenlinna:
+- Benteng laut di sebuah pulau kecil di Finland dibangun 1748.
+- Waktu dibangun, Finland masih di bawah Sweden. Habis itu di bawah Russia ketika masa perang Russia-Sweden selama tahun 1800-an. 
+- Setelah Finland merdeka,  Suomenlinna ini perannya jadi base militer sebelum dilestarikan jadi cultural heritage sekarang (UNESCO list) :D.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Untuk ke sana, kita naik ferry, bisa pakai tiket A-B zone dari HSL app. Durasi perjalanannnya 15 menit, singkat sekali. Tiket HSL bisa dipakai buat naik semua jenis transportasi umum: kereta, tram, bus, sampai ferry ini.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+![Description](../../assets/first-post/ferry-scenery.png)
+
+Setelah sampai, kita bisa ambil brosur berisi peta Suomenlinna, ada rute biru untuk lewatin main tourist attractionsnya. Ada banyak petunjuk jalan juga kalau bingung ke arah mana.
+
+Ini bangunan yang langsung kita ketemu pas turun dari ferry.
+![Description](../../assets/first-post/first-arrival.png)
+
+First stop: Suomenlinna kirkko (church). Ada yang lagi wedding ceremony di sini. Sempat lihat rombongannya, pernikahan di sini sangat simple dan kecil.
+![Description](../../assets/first-post/church.png)
+
+Habis itu kita jalan melewati dinding benteng dan perumahan sekitar. Lingkungan alam dan arsitektur di sini berasa sangat kuno, kayak di abad 17 kata mamaku hahaha. Tapi aesthetic, tenang, dan tradisional.
+![Description](../../assets/first-post/fortress-seaside.png)
+
+
+![Description](../../assets/first-post/old-building.png)
+
+Ada satu spot yang aku suka banget. Di sini viewnya cantik, kelihatan semua elemennya: rumah tradisional, air, perahu, jembatan, rumput, dan pohon-pohon. Semuanya nyatu, hehehe.
+![Description](../../assets/first-post/calm-scenery.png)
+
+Berjalan lagi, ke daerah benteng-bentengnya. Sempat masuk ke dalam, gelap dan berpasir. Tidak kebayang dulu zaman perang orang-orang tinggal di dalam sini bagaimana.
+![Description](../../assets/first-post/old-building.png)
+
+Setelah keluar dari sana, kita ketemu monumen yang ada zirah prajurit.
+![Description](../../assets/first-post/soldier-armor.png)
+
+Dari situ, jalan berbelok arah dari rute biru. Ketemu spot yang sangat indah :'D.
+
+Di sini ada beberapa benteng mini yang bentuknya kayak rumah kurcaci dan atas atapnya berumput. View-nya langsung menghadap ke laut dengan awan awan di atasnnya. Terus sempat secercah cahaya menembus awannya di tengah, menyinari bagian kecil permukaan lautnya di tengah kegelapan. Sangat indah.
+
+Tapi anginnya sangat amat kencang wkwkwk.
+
+![Description](../../assets/first-post/favorite-scenery.png)
+
+
+Kembali ke main route biru, kita jalan ke Kings Gate. Di sini, ada lebih banyak lagi rumah-rumah kurcaci prajurit. Banyak meriam menghiasi penjuru benteng di tepi lautnya. Kayak di negeri dongeng "Benteng rumput para prajurit kurcaci bersenjatakan meriam".
+
+![Description](../../assets/first-post/canon.png)
+
+
+![Description](../../assets/first-post/canon-2.png)
+
+Benteng mini rumputnya juga mengingatkanku ke hadiah boneka sapi yang bisa tumbuhin rumput di atasnya kalau disiram air. Dulu waktu kecil, aku sering dapat hadiah itu dari event gereja, sangat lucu hehehe.
+
+![Description](../../assets/first-post/kurcaci-houses.png)
+
+
+![Description](../../assets/first-post/near-kings-gate.png)
+
+That's the end of today's journey. Aku dan mama balik lagi ke pelabuhan sambil jalan santai. Thank you for reading my story!
