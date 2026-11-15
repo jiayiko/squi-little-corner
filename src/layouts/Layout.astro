@@ -105,6 +105,7 @@ const {
   <body class={ `min-h-screen bg-[var(--background)] text-[var(--text)] ${pageClass ?? ''}`}>
     <Header />
     <main style={backgroundImage ? `background-image: url('${backgroundImage}');` : ''}>
+        <slot name="background" />
         <div class="hero-image">
             {heroImage && (
                 typeof heroImage === 'string' ? (

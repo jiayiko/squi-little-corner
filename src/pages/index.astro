@@ -1,8 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { SITE_HOME_IMG } from '../consts';
+import { SITE_HOME_IMG, SITE_LOGO } from '../consts';
 ---
 <style>
+:global(.index-page main) {
+	isolation: isolate;
+}
+
 :global(.index-page .page-content) {
 	display: flex;
 	flex-direction: row;
@@ -10,16 +14,57 @@ import { SITE_HOME_IMG } from '../consts';
 	width: min(720px, 100%);
 	padding-right: 0;
 	padding-left: 0;
+	position: relative;
+	z-index: 1;
 }
-:global(.index-page main) {
 
+.canary-rain {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+	z-index: -1;
+}
+
+.canary-rain::after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 18vh;
+	background: linear-gradient(to bottom, transparent, var(--background));
+	backdrop-filter: blur(8px);
+	content: '';
 }
 
 .squi {
 	width: 50%;
 	max-height: 100%;
-	z-index: -1;
+	z-index: 1;
 	align-self: flex-end;
+}
+
+.canary {
+	position: absolute;
+	top: -40px;
+	left: var(--canary-left);
+	width: var(--canary-size);
+	height: auto;
+	opacity: 0.55;
+	animation: canary-fall var(--canary-duration) linear var(--canary-delay) infinite;
+}
+
+@keyframes canary-fall {
+	to {
+		transform: translate3d(var(--canary-drift), calc(100vh + 80px), 0) rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.canary {
+		animation: none;
+		top: var(--canary-top);
+	}
 }
 
 @media (max-width: 720px) {
@@ -38,6 +83,18 @@ import { SITE_HOME_IMG } from '../consts';
 <Layout
 	pageClass="index-page"
 >
+	<div slot="background" class="canary-rain" aria-hidden="true">
+		{
+			Array.from({ length: 12 }, (_, index) => (
+				<img
+					src={SITE_LOGO.src}
+					alt=""
+					class="canary"
+					style={`--canary-left: ${(index * 37 + 8) % 100}%; --canary-top: ${(index * 29 + 4) % 85}%; --canary-size: ${18 + ((index * 11) % 23)}px; --canary-duration: ${9 + ((index * 7) % 10)}s; --canary-delay: -${(index * 3) % 17}s; --canary-drift: ${index % 2 === 0 ? 40 : -40}px;`}
+				/>
+			))
+		}
+	</div>
 		<div>
 			<h1>🐻 Hi!</h1>
 			<p>
