@@ -12,8 +12,9 @@ import { SITE_HOME_IMG, SITE_LOGO } from '../consts';
 	flex-direction: row;
 	align-items: center;
 	width: min(720px, 100%);
-	padding-right: 0;
-	padding-left: 0;
+	box-sizing: border-box;
+	padding-right: 1.25rem;
+	padding-left: 1.25rem;
 	position: relative;
 	z-index: 1;
 }
@@ -72,7 +73,9 @@ import { SITE_HOME_IMG, SITE_LOGO } from '../consts';
 		flex-direction: column;
 		flex-grow: 1;
 		justify-content: space-between;
-		margin-top: 8vh;
+		margin-top: 4vh;
+		padding-top: 1.25rem;
+		padding-bottom: 1.25rem;
 	}
 	.squi {
 		width: 85%;

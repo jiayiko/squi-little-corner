@@ -81,12 +81,44 @@ import HeaderLink from './HeaderLink.astro';
 			display: none;
 		}
 
+		header {
+			padding: 0 0.75rem;
+		}
+
 		nav a {
-			padding: 0.6em 0.3em;
+			padding: 0.65rem 0.4rem;
+			font-size: 0.9rem;
+		}
+
+		nav h2 img {
+			width: 2.25rem;
+			height: 2.25rem;
 		}
 
 		.site-title {
-			max-width: 64px;
+			max-width: none;
+			font-size: 0.9rem;
+			white-space: nowrap;
+		}
+	}
+
+	@media (max-width: 380px) {
+		header {
+			padding: 0 0.5rem;
+		}
+
+		nav a {
+			padding: 0.6rem 0.3rem;
+			font-size: 0.85rem;
+		}
+
+		nav h2 img {
+			width: 2rem;
+			height: 2rem;
+		}
+
+		.site-title {
+			font-size: 0.8rem;
 		}
 	}
 </style>
